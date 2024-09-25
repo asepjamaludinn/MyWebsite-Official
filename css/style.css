@@ -822,7 +822,7 @@ span {
   }
 
   .home .profession-box .profession:nth-child(1) {
-    transform: rotate(-90deg) translate(-80px, -180px);
+    transform: rotate(-90deg) translate(-80px, -267px);
   }
 
   .home .profession-box .profession:nth-child(1) i {
@@ -830,17 +830,17 @@ span {
   }
 
   .home .profession-box .profession:nth-child(2) {
-    transform: rotate(0deg) translate(0, -280px);
+    transform: rotate(0deg) translate(0, -330px);
   }
   .home .profession-box .profession:nth-child(3) {
-    transform: rotate(90deg) translate(-70px, -370px);
+    transform: rotate(90deg) translate(-60px, -413px);
   }
 
   .home .profession-box .profession:nth-child(4) {
-    transform: rotate(180deg) translate(-175px, -280px);
+    transform: rotate(180deg) translate(-159px, -330px);
   }
 
-  .home .profession .circle {
+  .home .profession-box .circle {
     position: fixed;
     width: 670px;
     height: 670px;
@@ -849,7 +849,7 @@ span {
 
   .home .profession-container .overlay {
     position: fixed;
-    top: 70rem;
+    top: 82rem;
     left: 50%;
     right: 0;
     transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
