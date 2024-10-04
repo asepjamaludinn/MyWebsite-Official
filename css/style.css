@@ -344,7 +344,7 @@ span {
   margin-bottom: 15px;
   padding: 10px;
   border-radius: 1rem;
-  background: #fff;
+  background: var(--white-color);
   box-shadow: 0 4px 10px var(--text-color);
   transition: 0.3s ease;
   cursor: pointer;
@@ -357,7 +357,7 @@ span {
 .skills .container .bar:hover {
   box-shadow: 0 4px 10px var(--main-color);
   transform: scale(1.03);
-  background: #f7f7f7;
+  background: var(--white-color);
 }
 
 .skills .container .bar .info {
@@ -381,6 +381,11 @@ span {
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 10px;
+  filter: grayscale(1);
+}
+
+.skills .container .bar .info img:hover {
+  filter: grayscale(0);
 }
 
 /* portfolio */
